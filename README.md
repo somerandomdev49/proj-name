@@ -3,7 +3,7 @@
 > A command-line utility for when you have no ideas.
 
 This project uses [Deno](https://deno.land/)!
-This utility creates simple words (most of them don't exist)
+This utility creates simple words for project names. (most of them don't exist)
 
 <h3 align="center">Example</h3>
 
@@ -26,4 +26,10 @@ $ proj-name 7
 <h3 align="center">Installing</h3>
 
 I use a simple [shell script](https://gist.github.com/somerandomdev49/c1022b6d6fcf8fa0396d19a749c33a2e)
-to install a deno script in a folder (eg. `~/bin/` , which I have in my PATH)
+to install a deno script in a folder (eg. `~/bin/` , which I have in my PATH).
+
+##### The command I use:
+
+```js
+$ make-deno index.ts proj-name
+```
